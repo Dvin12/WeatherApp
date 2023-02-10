@@ -1,0 +1,60 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1.8rem;
+
+  &__main {
+    margin-top: 6rem;
+    font-size: 7.4rem;
+    font-weight: 700;
+    letter-spacing: 0.4px;
+    color: #f1f3f5;
+
+    &__text {
+      color: #f1f3f5;
+      font-size: 2.6rem;
+      font-weight: 300;
+      letter-spacing: 1.2px;
+    }
+  }
+
+  &__form {
+    margin-top: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.8rem;
+
+    input {
+      padding: 1.4rem;
+      width: 40rem;
+      border-radius: 12px;
+      border: 2px solid rgba(27, 26, 26, 0.829);
+      box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.11);
+      font-family: inherit;
+      outline: none;
+    }
+
+    &__button {
+      outline: none;
+      border: none;
+      background: transparent;
+      color: #ffe066;
+      cursor: pointer;
+      transition: all 0.3s;
+
+      i {
+        font-size: 3.2rem;
+        text-shadow: 0px 2px 10px rgba(0, 0, 0, 0.438);
+        pointer-events: none;
+      }
+
+      &:hover,
+      &::after {
+        color: #82c91e;
+      }
+    }
+  }
+}
