@@ -44,7 +44,7 @@ form.addEventListener("submit", (e) => {
     .then((data) => {
       const { main, name, sys, weather } = data;
 
-      const icon = `../svg/${weather[0]["icon"]}.svg`;
+      const icon = `svg/${weather[0]["icon"]}.svg`;
 
       const li = document.createElement("li");
 
