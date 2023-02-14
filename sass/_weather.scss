@@ -53,3 +53,37 @@
     }
   }
 }
+
+@media only screen and (max-width: 85.0625em) {
+  .info {
+    grid-template-columns: repeat(3, minmax(12rem, 1fr));
+
+    &__description {
+      font-size: 2.4rem;
+    }
+  }
+}
+
+@media only screen and (max-width: 75em) {
+  .info {
+    grid-template-columns: repeat(2, minmax(12rem, 1fr));
+  }
+}
+
+@media only screen and (max-width: 56.25em) {
+  .info {
+    grid-template-columns: repeat(1, minmax(12rem, 1fr));
+  }
+}
+
+@media only screen and (max-width: 35em) {
+  .info {
+    &__description {
+      font-size: 2.8rem;
+
+      h2 {
+        font-size: 4.8rem;
+      }
+    }
+  }
+}

@@ -11,9 +11,40 @@ html {
 
 body {
   background: linear-gradient(45deg, #42275a, #734b6d);
+  background-attachment: fixed;
 }
 
 img {
   max-width: 100%;
   height: auto;
+}
+
+@media only screen and (max-width: 85.0625em) {
+  html {
+    font-size: 55%;
+  }
+}
+
+@media only screen and (max-width: 75em) {
+  html {
+    font-size: 50%;
+  }
+}
+
+@media only screen and (max-width: 35em) {
+  html {
+    font-size: 35%;
+  }
+}
+
+@media only screen and (max-width: 25em) {
+  html {
+    font-size: 30%;
+  }
+}
+
+@media only screen and (max-width: 21.875em) {
+  html {
+    font-size: 25%;
+  }
 }

@@ -58,3 +58,47 @@
     }
   }
 }
+
+@media only screen and (max-width: 85.0625em) {
+  .header {
+    &__form {
+      input {
+        width: 70rem;
+      }
+
+      &__button {
+        i {
+          font-size: 4.2rem;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 56.25em) {
+  .header {
+    &__form {
+      input {
+        width: 50rem;
+      }
+
+      &__button {
+        i {
+          font-size: 4.2rem;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 35em) {
+  .header {
+    &__form {
+      &__button {
+        i {
+          font-size: 5.2rem;
+        }
+      }
+    }
+  }
+}
